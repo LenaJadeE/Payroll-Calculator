@@ -50,10 +50,20 @@ public class PayrollCalculator{
 // Ensure all your changes are committed and pushed to GitHub
 // Send your repository URL to your instructor
 
+// EXERCISE 2
+// In this exercise you will refactor the code from your previous payroll calculator exercise.
+// Refactoring is the process of updating existing code and breaking it into smaller methods to make it more modular and easier to maintain.
+// Before you start making changes: make a plan to consider how you will break up your code.
+// Use your notebook to diagram your plan.
+// Talk to the people in your breakout room to discuss ideas about how you might do it.
 
+// Step 1
+// Code your changes
+// When you finish, we will get together as a class and examine some of the different approaches people used.
 
-
-
+// Step 2:
+// Ensure all your changes are committed and pushed to GitHub
+// Send your repository URL to your instructor
 
 
     }
