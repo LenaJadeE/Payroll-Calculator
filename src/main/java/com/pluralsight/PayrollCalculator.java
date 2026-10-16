@@ -42,7 +42,7 @@ public class PayrollCalculator{
 
         // The output results
         System.out.println("Employee: " + employeeName);
-        System.out.println("Gross pay: $" + grossPay);
+        System.out.printf("Gross pay: $%.2f%n", grossPay);
 
         scanner.close();
 
