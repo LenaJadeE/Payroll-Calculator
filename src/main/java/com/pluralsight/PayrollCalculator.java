@@ -64,13 +64,13 @@ public class PayrollCalculator {
         double regularPay = regularHours * payRate;
         double overtimePay = overtimeHours * payRate * 1.5;
 
-        double grossPay = regularPay + overtimePay;
+        double grosspay = regularPay + overtimePay;
 
-        return regularHours + overtimeHours;
+        return grosspay;
 
     }
         // The output results
-    public static void displayResults(String employeeName, double grossPay, double total) {
+    public static void displayResults(String employeeName, double grossPay) {
         System.out.println("Employee: " + employeeName);
         System.out.printf("Gross pay: $%.2f%n", grossPay);
 
