@@ -36,15 +36,15 @@ public class PayrollCalculator{
         }
 
         // Calculating the gross pay to the overtime hours (standard 1.5 for overtime hours)
+        double regularPay = regularHours * payRate;
+        double overtimePay = overtimeHours * payRate * 1.5;
+        double grossPay = regularPay + overtimePay;
 
+        // The output results
+        System.out.println("Employee: " + employeeName);
+        System.out.println("Gross pay: $" + grossPay);
 
-
-
-
-
-
-
-
+        scanner.close();
 
 // Step 2:
 // Ensure all your changes are committed and pushed to GitHub
